@@ -1,0 +1,89 @@
+{"intents": [
+        {"tag": "salam",
+        "patterns": [
+            "Assalamualaikum", 
+            "Salam",
+            "Ass"
+        ],
+        "responses": [
+            "Waalaikumsalam"
+        ],
+        "context": [""]
+        },
+        {"tag": "bertanya",
+        "patterns": [
+            "baik", 
+            "bisa",
+            "saya ingin bertanya",
+            "mau nanya",
+            "bertanya",
+            "nanya"      
+        ],
+        "responses": [
+            "baik, bisa jelaskan pertanyaan anda?"
+        
+        ],
+            "context": [""]
+        },
+        {"tag": "greeting",
+         "patterns": ["Halo", "Apa kabar", "Apakah ada orang di sana?","Hai", "Halo", "Halo", "Selamat siang"],
+         "responses": ["Halo, terima kasih sudah bertanya", "Senang bertemu Anda lagi", "Halo, ada yang bisa saya bantu?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Sampai jumpa", "Sampai nanti", "Selamat tinggal", "Senang mengobrol denganmu, sampai jumpa", "Sampai jumpa lagi"],
+         "responses": ["Sampai jumpa!", "Semoga harimu menyenangkan", "Sampai jumpa! Segera kembali lagi."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Terima kasih", "Terima kasih", "Sangat membantu", "Luar biasa, terima kasih", "Terima kasih telah membantu saya"],
+         "responses": ["Senang bisa membantu!", "Kapan saja!", "Dengan senang hati"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Maaf, saya tidak mengerti", "Tolong beri saya info lebih lanjut", "Saya tidak yakin saya mengerti"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Bagaimana Anda dapat membantu saya?", "Apa yang dapat Anda lakukan?", "Bantuan apa yang Anda berikan?", "Bagaimana Anda dapat membantu?", "Dukungan apa yang ditawarkan"],
+         "responses": ["Saya dapat memandu Anda melalui daftar Reaksi Obat yang Merugikan, Pelacakan Tekanan Darah, Rumah Sakit dan Apotek", "Menawarkan dukungan untuk Reaksi Obat yang Merugikan, Tekanan Darah, Rumah Sakit dan Apotek"],
+         "context": [""]
+        },
+        {"tag": "atasi_stress",
+         "patterns": ["Bagaimana Anda dapat membantu saya mengatasi stres dan kecemasan?","apa saja gejala yang disebabkan oleh stres?" ],
+         "responses": ["Saya dapat memberikan saran dan teknik manajemen stres, memberikan informasi tentang latihan relaksasi, serta mendukung Anda dalam menemukan strategi koping yang sesuai dengan situasi Anda.Gejala stres dapat mencakup ketegangan otot, gangguan tidur, perubahan nafsu makan, peningkatan denyut jantung, kesulitan berkonsentrasi, dan perubahan mood seperti kecemasan atau iritabilitas."],
+         "context": [""]
+        },
+        {"tag": "atasi_stress_2",
+         "patterns": ["bagaimana cara menghilangkan stress?","Apa strategi yang efektif untuk meredakan stres dan menciptakan perasaan lebih tenang?" ],
+         "responses": ["Stres bekerja seperti pekerjaan rumah. Anda tidak melakukannya setiap hari, dan pada akhirnya, itu akan menjadi kekacauan besar. Demikian pula jika Anda membiarkan masalah Anda menumpuk; Anda akan merasa semakin stres. Jadi solusi terbaik adalah mengatasi masalah Anda satu per satu. Jangan biarkan hal itu membuat Anda kewalahan."],
+         "context": [""]
+        },
+   {"tag": "tingkat_stress_0",
+         "patterns": ["apa yang di maksud dengan tingkat stres sangat rendah?"],
+         "responses": ["Pada tingkat stres yang rendah.Emosi yang dominan adalah kebahagiaan (happy) .umumnya dianggap positif untuk kesejahteraan mental dan fisik. "],
+         "context": [""]
+        },
+        {"tag": "tingkat_stress_1",
+         "patterns": ["apa yang di maksud dengan tingkat stres rendah?"],
+         "responses": ["Pada tingkat stres yang rendah, seseorang biasanya merasa nyaman, rileks, atau netral dalam situasi tertentu.Emosi yang dominan adalah kebahagiaan (happy) dan ketenangan (neutral). Individu pada tingkat stres rendah cenderung memiliki kemampuan berpikir jernih, konsentrasi yang tinggi, dan merasa tenang."],
+         "context": [""]
+        },
+        {"tag": "tingkat_stress_2",
+         "patterns": ["apa yang dimaksud dengan tingkat stres sedang?"],
+         "responses": ["Pada tingkat stres yang moderat, seseorang mungkin mengalami perasaan marah (angry) atau sedih (sad) yang lebih kuat. Stres sedang dapat memunculkan reaksi emosional yang lebih intens, tetapi belum mencapai tingkat stres yang tinggi. Kemampuan konsentrasi mungkin sedikit terganggu, dan individu mungkin merasa agak tertekan atau gelisah."],
+         "context": [""]
+        },
+        {"tag": "tingkat_stress_3",
+         "patterns": ["apa yang dimaksud dengan tingkat stres tinggi?" ],
+         "responses": ["Pada tingkat stres yang tinggi, individu mungkin mengalami emosi seperti jijik (disgust) atau rasa takut (fear) yang kuat. Stres tinggi dapat menyebabkan reaksi emosional yang sangat kuat dan bisa mengganggu kemampuan berpikir secara rasional.Seseorang pada tingkat stres tinggi mungkin merasa tegang, cemas, dan bahkan mengalami gangguan fisik seperti sakit kepala, gangguan tidur, dan gangguan pencernaan."],
+         "context": [""]
+        },
+        {"tag": "tingkat_stress_4",
+         "patterns": ["apakah stress menyebabkan masalah kesehatan?"],
+         "responses": ["Stres yang terus-menerus diketahui menyebabkan banyak masalah medis. Ini termasuk sakit kepala terus menerus yang mungkin semakin parah. Masalah lainnya termasuk insomnia, nyeri dada, dan detak jantung cepat. Selain itu, orang yang mengalami stres secara rutin lebih mungkin menderita masalah yang berhubungan dengan jantung."],
+         "context": [""]
+        }
+   ]
+}
